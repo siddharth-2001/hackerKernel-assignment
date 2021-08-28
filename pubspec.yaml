@@ -32,6 +32,7 @@ dependencies:
   http: ^0.13.3
   flutter_custom_clippers: ^2.0.0
   flutter_advanced_switch: ^2.1.0
+  flutter_displaymode: ^0.3.2
 
 dev_dependencies:
   flutter_test:

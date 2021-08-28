@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_displaymode/flutter_displaymode.dart';
 
 import './screens/auth_screen.dart';
 import './providers/auth.dart';
@@ -8,6 +9,7 @@ import 'screens/karma_screen.dart';
 import './screens/profile_screen.dart';
 
 void main() {
+  FlutterDisplayMode.setHighRefreshRate();
   SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
     systemNavigationBarIconBrightness: Brightness.dark,
     statusBarColor: Color.fromRGBO(255, 132, 0, 1), // status bar color
